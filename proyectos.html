@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+     <!-- Estilo -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
   </head>
   <body>
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portafolio</a>
+            <a class="navbar-brand" href="#"><img src="./src/img/Union.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,7 +38,7 @@
 
     <!-- Proyectos -->
     <section class="proyectos-recientes seccion-clara d-flex flex-column py-5" >
-            <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+            <h1 class="titulo">Mis proyectos recientes</h2>
             <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
             <!-- Galeria de proyectos -->
             <div class="container text-center proyectos-contenedor" >
@@ -38,7 +47,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                   <div class="proyecto">
                     <img src="./src/img/proyecto1.png" alt="Proyecto1">
-                    <div class="overlay">
+                    <div class="overlay ">
                       <p>Proyecto 1</p>
                       <div class="iconos-contenedor">
                         <a href="https://github.com/estefaniacn" target="_blank" rel="noopener noreferrer">
@@ -139,9 +148,9 @@
               </div>
             </div>
             <a href="https://tldr.sh/" target="_blank" rel="noopener noreferrer">
-              <button type="button" class="btn btn-info">
+              <button type="button" class="btn btn-light">
                 Ver más proyectos
-                <i class="bi bi-arrow-right-circle"></i>
+                
               </button>
             </a>
             
