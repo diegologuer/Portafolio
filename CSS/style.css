@@ -1,17 +1,15 @@
+/*General*/
+
 * {
     background-color: #202020;
 }
 
-.foot{
-}
 
 .titulo {
     color: #DEDEDE;
     margin: 60px 0 20px  0;
     font-size: 55px;
     font-family: 'Manrope', sans-serif;
-    
-    
 }
 
 .descr {
@@ -25,8 +23,13 @@
 
 .navbar-nav .nav-link{
     margin: 0 50px 5px 0;
-    font-size: 20px;
-    
+    font-size: 20px; 
+}
+
+.icono-index{
+    font-size: 40px;
+    color: #DEDEDE;
+    justify-content: left;
 }
 
 
