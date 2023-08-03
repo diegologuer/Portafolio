@@ -137,8 +137,9 @@ section{
     margin: 10px 0;
 }
 
-.badges{
-    margin: 5px;
+.badge{
+    margin: 10px;
+    
 }
 
 .experiencia .columna{
@@ -183,6 +184,7 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    border-radius: 15px;
 }
 
 .overlay p{
@@ -214,4 +216,12 @@ section{
     font-size: 60px;
     margin: 10px;
 }
+
+/* MOSTRAR MAS */
+#sobreMi{
+    display: none;
+}
+
+  
+  
 
