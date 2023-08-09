@@ -2,13 +2,12 @@
 let btnMas = document.getElementById("btnMas");
 let sobreMi = document.getElementById("sobreMi");
 
-btnMas.addEventListener("click", function(event){
-    event.preventDefault();
-    {
-        if (sobreMi.style.display === "none") {
-          sobreMi.style.display = "block";
-        } else {
-          sobreMi.style.display = "none";
-        }
-      }
+btnMas.addEventListener("click", function() {
+  if (sobreMi.style.display === "none") {
+      sobreMi.style.display = "block";
+      btnMas.textContent = "Ver Menos";
+  } else {
+      sobreMi.style.display = "none";
+      btnMas.textContent = "Ver Más";
+  }
 });
